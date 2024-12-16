@@ -1,0 +1,55 @@
+<LinearLayout
+    android:background="@drawable/gradient_multicolored_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH EMPLOYEE"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#2E0601"
+        android:background="#3B1E2F8C"
+        android:layout_marginBottom="50dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/empcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMPLOYEE CODE"
+        android:background="#7BC39A83"
+        android:padding="8dp"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textColorHint="#373535"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/search"
+        android:padding="3dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:textStyle="bold"
+        android:background="#9A1C99D0"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menu"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO MENU"
+        android:textStyle="bold"
+        android:background="#9A1C99D0"/>
+
+</LinearLayout>
