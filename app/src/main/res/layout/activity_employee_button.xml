@@ -43,6 +43,41 @@
         android:textAlignment="center"
         android:textColorHint="#373535"
         />
+    <EditText
+        android:id="@+id/designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DESIGNATION"
+        android:background="#7BC39A83"
+        android:padding="8dp"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textColorHint="#373535"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-MAIL ID"
+        android:background="#7BC39A83"
+        android:padding="8dp"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textColorHint="#373535"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SALARY"
+        android:inputType="number"
+        android:background="#7BC39A83"
+        android:padding="8dp"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textColorHint="#373535"
+        android:textStyle="bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/login"
